@@ -2,6 +2,7 @@ package com.integ.test.junit;
 
 import junit.framework.TestCase;
 
+import com.integ.main.Calc;
 import com.thoughtworks.selenium.webdriven.commands.Open;
 
 import cucumber.api.PendingException;
@@ -55,19 +56,15 @@ public void the_number_and(int arg1, int arg2) throws Throwable {
 public void the_Result_field_should_be(int arg1) throws Throwable {
     // Express the Regexp above with the code you wish you had
     //throw new PendingException();
+	
 	if(operator.equals("Add"))
 	{
-		result=input1+input2;
-		
-	}
-	if(operator.equals("Multiply"))
-	{
-		result=input1*input2;
+		Calc calc = new Calc();
+		result=calc.add(input1, input2);
 		
 	}
 	assertEquals(arg1,result);
-}
-
-
+	}
 
 }
+
