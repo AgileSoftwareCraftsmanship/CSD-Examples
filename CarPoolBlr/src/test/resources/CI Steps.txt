@@ -1,0 +1,8 @@
+Install GIT (not Github) on your local machile
+Install egit in eclipse through marketplace (or install new software)
+Create GITHUB account
+Create repository on GITHUB
+
+SVN- Install
+Need SVN URL (in case Company URL) or install VisualSVN on your machine
+
