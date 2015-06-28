@@ -6,3 +6,18 @@ Create repository on GITHUB
 SVN- Install
 Need SVN URL (in case Company URL) or install VisualSVN on your machine
 
+Check-In your code for 1st time
+Go to your project and right click
+Select Team -> Share project
+Choose Repository
+Create Repository (select project location)
+
+Again Right Click on Project
+Select Team -> commit
+Select file to commit
+
+Linking with GITHUB
+Create Remote
+Configure remote with GITHUB URL
+Mentioned USERNAME and PASSWORD
+Click PUSH
