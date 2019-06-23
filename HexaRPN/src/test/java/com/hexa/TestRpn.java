@@ -22,6 +22,7 @@ public void testThirdCase()
 }
 public void testExecption()
 {
+	println("Test");
 	try
 	{
 		RPNcalc rpn = new RPNcalc();
